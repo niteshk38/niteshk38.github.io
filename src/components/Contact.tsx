@@ -1,11 +1,10 @@
-import { Mail, MapPin, Linkedin, Github, Twitter } from "lucide-react";
+import { Mail, MapPin, Phone, Linkedin, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
   const socialLinks = [
-    { icon: <Linkedin className="w-5 h-5" />, href: "#", label: "LinkedIn" },
+    { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/niteshk38/", label: "LinkedIn" },
     { icon: <Github className="w-5 h-5" />, href: "#", label: "GitHub" },
-    { icon: <Twitter className="w-5 h-5" />, href: "#", label: "Twitter" },
   ];
 
   return (
@@ -17,11 +16,11 @@ const Contact = () => {
               Contact
             </span>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Let's Work <span className="text-gradient">Together</span>
+              Let's <span className="text-gradient">Connect</span>
             </h2>
             <p className="text-muted-foreground font-body text-lg max-w-2xl mx-auto">
-              I'm always open to discussing new projects, creative ideas, or 
-              opportunities to be part of your vision.
+              I'm always open to discussing new opportunities, collaboration, or 
+              just having a chat about test automation and software quality.
             </p>
           </div>
 
@@ -34,7 +33,7 @@ const Contact = () => {
               
               <div className="space-y-6">
                 <a 
-                  href="mailto:alex@example.com" 
+                  href="mailto:niteshk38@gmail.com" 
                   className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors duration-300"
                 >
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
@@ -42,7 +41,20 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-body text-sm text-muted-foreground">Email</p>
-                    <p className="font-body text-foreground">alex@example.com</p>
+                    <p className="font-body text-foreground">niteshk38@gmail.com</p>
+                  </div>
+                </a>
+
+                <a 
+                  href="tel:+917019765283" 
+                  className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors duration-300"
+                >
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Phone className="w-5 h-5 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-body text-sm text-muted-foreground">Phone</p>
+                    <p className="font-body text-foreground">+91 70197 65283</p>
                   </div>
                 </a>
 
@@ -52,7 +64,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-body text-sm text-muted-foreground">Location</p>
-                    <p className="font-body text-foreground">San Francisco, CA</p>
+                    <p className="font-body text-foreground">Bengaluru, India</p>
                   </div>
                 </div>
               </div>
@@ -65,6 +77,8 @@ const Contact = () => {
                     <a
                       key={index}
                       href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       aria-label={social.label}
                       className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:border-primary hover:text-primary transition-colors duration-300"
                     >
@@ -80,14 +94,15 @@ const Contact = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent" />
               <div className="relative z-10">
                 <h3 className="font-display text-2xl font-semibold text-foreground mb-4">
-                  Ready to start a project?
+                  Looking for a Quality Engineer?
                 </h3>
                 <p className="text-muted-foreground font-body mb-8 leading-relaxed">
-                  Whether you have a detailed brief or just an idea, I'd love to 
-                  hear from you. Let's create something amazing together.
+                  With 7+ years of experience in test automation and quality assurance, 
+                  I can help ensure your software meets the highest standards of reliability 
+                  and performance.
                 </p>
                 <Button variant="gold" size="lg" className="w-full" asChild>
-                  <a href="mailto:alex@example.com">
+                  <a href="mailto:niteshk38@gmail.com">
                     Send Me a Message
                   </a>
                 </Button>

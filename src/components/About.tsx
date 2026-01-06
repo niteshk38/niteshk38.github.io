@@ -1,8 +1,8 @@
 const About = () => {
   const stats = [
-    { value: "8+", label: "Years Experience" },
-    { value: "50+", label: "Projects Completed" },
-    { value: "30+", label: "Happy Clients" },
+    { value: "7+", label: "Years Experience" },
+    { value: "95%", label: "Test Coverage" },
+    { value: "60%", label: "Reduced Manual Testing" },
   ];
 
   return (
@@ -15,25 +15,25 @@ const About = () => {
               About Me
             </span>
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-6 text-foreground">
-              Designing with{" "}
-              <span className="text-gradient">Purpose</span>
+              Engineering{" "}
+              <span className="text-gradient">Quality</span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-body leading-relaxed">
               <p>
-                I'm a product designer with over 8 years of experience creating 
-                digital products that balance business goals with user needs. 
-                My approach combines strategic thinking with meticulous attention 
-                to craft.
+                I'm a Software Engineer with significant experience in developing and implementing 
+                comprehensive test plans and automation strategies. Known for strong focus on team 
+                collaboration and achieving consistent results, adapting seamlessly to changing 
+                project requirements.
               </p>
               <p>
-                Previously, I've had the privilege of working with innovative 
-                startups and Fortune 500 companies, including Airbnb, Spotify, 
-                and several Y Combinator-backed ventures.
+                Currently at OLA, I serve as the primary owner of Pricing, Peak Pricing, Location, 
+                Signals, and Allocation Services, ensuring reliability across distributed systems. 
+                I lead a 5-member team, managing automation priorities, framework scalability, and 
+                quality gates.
               </p>
               <p>
-                When I'm not pushing pixels, you'll find me exploring hiking 
-                trails, experimenting with film photography, or mentoring 
-                aspiring designers.
+                My expertise spans test automation, quality assurance, and problem-solving, bringing 
+                reliability and accuracy to software development projects.
               </p>
             </div>
           </div>
