@@ -20,19 +20,13 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground font-body leading-relaxed">
               <p>
-                I'm a Software Engineer with significant experience in developing and implementing 
+                Software testing professional with significant experience in developing and implementing 
                 comprehensive test plans and automation strategies. Known for strong focus on team 
                 collaboration and achieving consistent results, adapting seamlessly to changing 
                 project requirements.
               </p>
               <p>
-                Currently at OLA, I serve as the primary owner of Pricing, Peak Pricing, Location, 
-                Signals, and Allocation Services, ensuring reliability across distributed systems. 
-                I lead a 5-member team, managing automation priorities, framework scalability, and 
-                quality gates.
-              </p>
-              <p>
-                My expertise spans test automation, quality assurance, and problem-solving, bringing 
+                Expertise in test automation, quality assurance, and problem-solving, bringing 
                 reliability and accuracy to software development projects.
               </p>
             </div>

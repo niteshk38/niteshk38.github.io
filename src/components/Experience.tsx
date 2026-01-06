@@ -3,36 +3,42 @@ import { Briefcase } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Software Engineer - II",
+      title: "SDET-II",
       company: "OLA",
-      period: "Feb 2024 - Jun 2025",
-      description: "Primary owner of Pricing, Peak Pricing, Location, Signals, and Allocation Services. Led a 5-member team, designed scalable automation frameworks, and expanded test coverage from 75% to 95%.",
+      period: "02/2024 to 06/2025",
+      description: "Primary owner of Pricing, Peak Pricing, Location Services, Signals, and Allocation Services at Ola.",
       highlights: [
-        "Designed and implemented scalable automation frameworks (Java, TestNG) — reduced manual testing effort by 60%",
-        "Debugged and resolved production issues, performed root cause analysis (RCA)",
-        "Integrated testing within CI/CD pipelines using Jenkins",
-        "Mentored junior engineers in automation best practices"
+        "Worked on debugging production issues, fixing them, and creating an RCA",
+        "Led and managed the technical work and priorities for a team of five SDETs",
+        "Implemented robust automation frameworks, reducing manual testing by 60%",
+        "Increased test coverage from 75% to 95% through the creation of comprehensive automated test suites",
+        "Performed manual and exploratory testing to identify critical issues",
+        "Collaborated with development and product teams, and participated in code reviews",
+        "Managed test cases, plans, and bug tracking in JIRA and ServiceNow",
+        "Developed and implemented automated testing frameworks using TestNG and Java, enhancing test coverage and efficiency",
+        "Led cross-functional teams in Agile environments to drive continuous integration and deployment practices, improving software quality",
+        "Mentored junior developers in best practices for automated testing, fostering a culture of knowledge sharing and collaboration"
       ]
     },
     {
-      title: "Software Engineer - I",
+      title: "SDET-I",
       company: "OLA",
-      period: "Mar 2020 - Jan 2024",
-      description: "Owned and automated test coverage for Pricing and Peak Pricing modules using Java, TestNG, RestAssured, and Postman.",
+      period: "03/2020 to 01/2024",
+      description: "Owned and automated testing for Pricing and Peak Pricing modules at Ola.",
       highlights: [
-        "Developed and executed automated and manual test cases",
-        "Integrated automation with Jenkins pipelines, improving CI reliability"
+        "Developed and executed automated and manual test cases using Java, TestNG, RestAssured, and Postman",
+        "Debugged and resolved production issues by analyzing logs, identifying defects, and ensuring post-fix stability through regression testing",
+        "Reviewed new feature requirements and created detailed test plans and strategies to ensure full coverage",
+        "Improved automation reliability by refactoring legacy test suites and integrating with Jenkins pipelines"
       ]
     },
     {
       title: "Support Engineer",
       company: "NestAway Technologies Pvt. Ltd.",
-      period: "Apr 2018 - Feb 2020",
-      description: "Conducted manual and regression testing for production stability. Managed backend application monitoring and issue triaging.",
+      period: "04/2018 to 02/2020",
+      description: "Handled application-level troubleshooting and root cause analysis.",
       highlights: [
-        "Refactored legacy test scripts, reducing flakiness",
-        "Performed root cause analysis using SQL and monitoring tools",
-        "Collaborated with engineering teams to resolve production issues"
+        "Supported backend system monitoring and issue triaging using SQL and internal tools"
       ]
     },
   ];

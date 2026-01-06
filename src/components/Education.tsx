@@ -2,8 +2,8 @@ import { GraduationCap, Globe, Camera, Bike, Bot } from "lucide-react";
 
 const Education = () => {
   const languages = [
-    { name: "English", level: "Native or Bilingual" },
-    { name: "Hindi", level: "Native or Bilingual" },
+    { name: "English", level: "Native or Bilingual Proficiency" },
+    { name: "Hindi", level: "Native or Bilingual Proficiency" },
   ];
 
   const interests = [
