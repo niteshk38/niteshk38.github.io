@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
+import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -11,13 +12,13 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Alex Morgan | Senior Product Designer</title>
+        <title>Nitesh Kumar | Software Engineer II - SDET</title>
         <meta 
           name="description" 
-          content="Portfolio of Alex Morgan, a Senior Product Designer with 8+ years of experience creating meaningful digital experiences for companies like Airbnb and Spotify." 
+          content="Portfolio of Nitesh Kumar, a Software Engineer II with 7+ years of experience in test automation, quality assurance, and building scalable automation frameworks at OLA." 
         />
-        <meta name="keywords" content="product designer, UX designer, portfolio, San Francisco, digital design" />
-        <link rel="canonical" href="https://alexmorgan.design" />
+        <meta name="keywords" content="software engineer, SDET, test automation, Java, Selenium, API testing, Bengaluru, QA engineer" />
+        <link rel="canonical" href="https://niteshkumar.dev" />
       </Helmet>
       
       <div className="min-h-screen bg-background">
@@ -27,6 +28,7 @@ const Index = () => {
           <About />
           <Experience />
           <Skills />
+          <Education />
           <Contact />
         </main>
         <Footer />

@@ -10,6 +10,7 @@ const Navigation = () => {
     { href: "#about", label: "About" },
     { href: "#experience", label: "Experience" },
     { href: "#skills", label: "Skills" },
+    { href: "#education", label: "Education" },
     { href: "#contact", label: "Contact" },
   ];
 
@@ -49,7 +50,7 @@ const Navigation = () => {
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
           >
-            AM<span className="text-primary">.</span>
+            NK<span className="text-primary">.</span>
           </a>
 
           {/* Desktop navigation */}
@@ -65,7 +66,7 @@ const Navigation = () => {
               </button>
             ))}
             <Button variant="gold" size="sm" asChild>
-              <a href="mailto:alex@example.com">Hire Me</a>
+              <a href="mailto:niteshk38@gmail.com">Hire Me</a>
             </Button>
           </div>
 
@@ -93,7 +94,7 @@ const Navigation = () => {
                 </button>
               ))}
               <Button variant="gold" size="lg" className="mt-4" asChild>
-                <a href="mailto:alex@example.com">Hire Me</a>
+                <a href="mailto:niteshk38@gmail.com">Hire Me</a>
               </Button>
             </div>
           </div>

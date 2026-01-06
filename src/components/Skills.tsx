@@ -1,40 +1,40 @@
-import { Palette, Code, Users, Lightbulb, PenTool, BarChart } from "lucide-react";
+import { Code, TestTube, Database, GitBranch, Cloud, Wrench } from "lucide-react";
 
 const Skills = () => {
-  const skills = [
+  const skillCategories = [
     {
-      icon: <Palette className="w-8 h-8" />,
-      title: "Visual Design",
-      description: "Creating stunning interfaces with meticulous attention to typography, color, and spacing.",
-    },
-    {
-      icon: <Users className="w-8 h-8" />,
-      title: "User Research",
-      description: "Conducting interviews, surveys, and usability tests to deeply understand user needs.",
-    },
-    {
-      icon: <PenTool className="w-8 h-8" />,
-      title: "Prototyping",
-      description: "Building interactive prototypes in Figma to validate concepts before development.",
+      icon: <TestTube className="w-8 h-8" />,
+      title: "Testing & QA",
+      skills: ["Test Automation", "Functional Testing", "Regression Testing", "API Testing", "TestNG", "JUnit", "Selenium", "Cypress", "Playwright"],
     },
     {
       icon: <Code className="w-8 h-8" />,
-      title: "Design Systems",
-      description: "Architecting scalable component libraries that ensure consistency across products.",
+      title: "Programming",
+      skills: ["Java", "Python", "OOPs", "Data Structures & Algorithms"],
     },
     {
-      icon: <Lightbulb className="w-8 h-8" />,
-      title: "Product Strategy",
-      description: "Aligning design decisions with business objectives and user value propositions.",
+      icon: <Wrench className="w-8 h-8" />,
+      title: "Automation Tools",
+      skills: ["Selenium WebDriver", "RestAssured", "Postman", "Maven", "Jenkins", "Git", "Docker"],
     },
     {
-      icon: <BarChart className="w-8 h-8" />,
-      title: "Data Analysis",
-      description: "Leveraging analytics and metrics to inform design iterations and measure impact.",
+      icon: <GitBranch className="w-8 h-8" />,
+      title: "Frameworks",
+      skills: ["Hybrid", "POM (Page Object Model)", "BDD (Cucumber)", "TestNG Framework"],
+    },
+    {
+      icon: <Cloud className="w-8 h-8" />,
+      title: "CI/CD & DevOps",
+      skills: ["Jenkins", "GitHub Actions", "Docker", "AWS (EC2, S3)"],
+    },
+    {
+      icon: <Database className="w-8 h-8" />,
+      title: "Databases",
+      skills: ["MySQL", "MongoDB", "Redis", "ScyllaDB"],
     },
   ];
 
-  const tools = ["Figma", "Framer", "Adobe CC", "Notion", "Miro", "Principle", "Webflow", "React"];
+  const otherSkills = ["Agile/Scrum", "SDLC/STLC", "API Automation", "Jira", "Confluence"];
 
   return (
     <section id="skills" className="py-24 md:py-32">
@@ -44,26 +44,33 @@ const Skills = () => {
             Skills
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground">
-            What I <span className="text-gradient">Do Best</span>
+            Technical <span className="text-gradient">Expertise</span>
           </h2>
         </div>
 
         {/* Skills grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-20">
-          {skills.map((skill, index) => (
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-16">
+          {skillCategories.map((category, index) => (
             <div 
               key={index}
-              className="group card-gradient border border-border/50 rounded-2xl p-8 hover:border-primary/40 transition-all duration-300 hover:-translate-y-1"
+              className="group card-gradient border border-border/50 rounded-2xl p-6 hover:border-primary/40 transition-all duration-300 hover:-translate-y-1"
             >
               <div className="text-primary mb-4 group-hover:scale-110 transition-transform duration-300">
-                {skill.icon}
+                {category.icon}
               </div>
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3">
-                {skill.title}
+              <h3 className="font-display text-xl font-semibold text-foreground mb-4">
+                {category.title}
               </h3>
-              <p className="text-muted-foreground font-body text-sm leading-relaxed">
-                {skill.description}
-              </p>
+              <div className="flex flex-wrap gap-2">
+                {category.skills.map((skill, sIndex) => (
+                  <span 
+                    key={sIndex}
+                    className="px-3 py-1 rounded-full bg-secondary/80 text-secondary-foreground font-body text-xs"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </div>
           ))}
         </div>
@@ -71,15 +78,15 @@ const Skills = () => {
         {/* Tools section */}
         <div className="max-w-4xl mx-auto">
           <h3 className="font-display text-2xl font-semibold text-center text-foreground mb-8">
-            Tools & Technologies
+            Other Skills
           </h3>
           <div className="flex flex-wrap justify-center gap-3">
-            {tools.map((tool, index) => (
+            {otherSkills.map((skill, index) => (
               <span 
                 key={index}
                 className="px-6 py-3 rounded-full border border-border bg-secondary/50 text-secondary-foreground font-body text-sm hover:border-primary/50 hover:text-primary transition-colors duration-300"
               >
-                {tool}
+                {skill}
               </span>
             ))}
           </div>

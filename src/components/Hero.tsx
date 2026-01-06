@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -25,19 +25,19 @@ const Hero = () => {
 
           {/* Name */}
           <h1 className="animate-fade-up animate-delay-100 font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">
-            <span className="text-foreground">Alex </span>
-            <span className="text-gradient">Morgan</span>
+            <span className="text-foreground">Nitesh </span>
+            <span className="text-gradient">Kumar</span>
           </h1>
 
           {/* Title */}
           <p className="animate-fade-up animate-delay-200 font-body text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-8">
-            Senior Product Designer
+            Software Engineer II
           </p>
 
           {/* Description */}
           <p className="animate-fade-up animate-delay-300 font-body text-muted-foreground max-w-2xl mx-auto mb-12 text-base md:text-lg leading-relaxed">
-            Crafting meaningful digital experiences through thoughtful design. 
-            Based in San Francisco, I help companies build products that people love.
+            Software engineer with significant experience in test automation and quality assurance. 
+            Based in Bengaluru, I help teams build reliable software through comprehensive testing strategies.
           </p>
 
           {/* CTA Buttons */}
