@@ -31,13 +31,13 @@ const Hero = () => {
 
           {/* Title */}
           <p className="animate-fade-up animate-delay-200 font-body text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-8">
-            Software Engineer II
+            Software Development Engineer in Test - II
           </p>
 
           {/* Description */}
           <p className="animate-fade-up animate-delay-300 font-body text-muted-foreground max-w-2xl mx-auto mb-12 text-base md:text-lg leading-relaxed">
-            Software engineer with significant experience in test automation and quality assurance. 
-            Based in Bengaluru, I help teams build reliable software through comprehensive testing strategies.
+            Software testing professional with significant experience in developing and implementing 
+            comprehensive test plans and automation strategies. Based in Bengaluru, India.
           </p>
 
           {/* CTA Buttons */}

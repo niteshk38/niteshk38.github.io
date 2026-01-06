@@ -34,7 +34,7 @@ const Skills = () => {
     },
   ];
 
-  const otherSkills = ["Agile/Scrum", "SDLC/STLC", "API Automation", "Jira", "Confluence"];
+  const otherSkills = ["Agile/Scrum", "SDLC/STLC", "API Automation", "Jira", "Confluence", "Version Control & Collaboration"];
 
   return (
     <section id="skills" className="py-24 md:py-32">
