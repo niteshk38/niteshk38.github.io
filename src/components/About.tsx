@@ -15,8 +15,8 @@ const About = () => {
               About Me
             </span>
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-6 text-foreground">
-              Engineering{" "}
-              <span className="text-gradient">Quality</span>
+              Quality{" "}
+              <span className="text-gradient">Engineering</span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-body leading-relaxed">
               <p>
